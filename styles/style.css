@@ -1,0 +1,390 @@
+/*
+ * Feuille de style css pour le fichier test.html
+ */
+
+/* Police de caractère du site */
+
+
+/* Menu de la page inclu dans les différentes pages de gestion de compte */
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+  background:#1b1b2b;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:5px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
+
+
+
+/* Positionnement du formulaire */
+#connexion
+{
+	margin:0px auto;
+	width:628px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: white; 
+	padding-bottom : 10px;
+}
+
+#connexion h3
+{
+	padding:10px;	
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	color: white;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  	font-size:200%;
+
+
+}
+
+
+#connexion p
+{
+	padding-left:10px;
+}
+
+#utile a
+{
+	color:black;
+	text-decoration:none;
+}
+
+#utile a:hover
+{
+	color:#9D9D9D;
+}
+
+#utile
+{
+	padding-top:25px;
+	padding-bottom:10px;
+}
+
+#formConnexion
+{
+	margin:0 auto;
+	width:300px;
+	background-color:white;
+}
+
+/* Mot de passe oublié */
+
+#formForgetMdp
+{
+	margin:0 auto;
+	width:51%;
+	background:#DEDEDE;
+}
+
+#formForgetMdp a
+{
+	color:black;
+	text-decoration:none;
+}
+
+#formForgetMdp a:hover
+{
+	color:white;
+}
+
+/* Page d'erreur de connexion */
+#erreurCo 
+{
+	text-align:center;
+	padding-bottom:10px;
+}
+
+#erreurCo a
+{	
+	color:black;
+	text-decoration:none;
+}
+
+#erreurCo a:hover
+{	
+	color:white;
+}
+
+
+/* Page de gestion  */
+
+#pagegestionU
+{
+	margin:0px auto;
+	width:628px;
+	box-shadow: 1px 1px 12px #555;	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background:#DEDEDE;
+	padding-bottom : 10px;
+}
+#pagegestionU table
+{	
+	margin-left:10px;
+	margin-top : 10px;	
+	float:left;
+}
+
+/* Page de gestion */
+
+#pagegestionD 
+{
+	margin:0px auto;
+	width:628px;
+	box-shadow: 1px 1px 12px #555;	
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: white; 
+	padding-bottom : 10px;
+}
+#pagegestionDD 
+{
+	margin:0px auto;
+	width:628px;
+	box-shadow: 1px 1px 12px #555;	
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color:white;
+	padding-bottom : 10px;	
+}
+
+#pagegestionD form
+{
+	margin-top:15px;
+}
+#pagegestionD #btnAjouter{
+	margin-top:14px;
+}
+#pagegestionD table
+{	
+	margin-left:80px;
+	float : left;
+	margin-top:10px;
+	margin-bottom: 15px;
+}
+#pagegestionDD table
+{	
+	/*margin-left:180px;*/
+	float : center;
+	margin-top:10px;
+}
+
+/* Page de modification des informations */ 
+#modifier
+{
+	margin:0px  auto;
+	box-shadow: 1px 1px 12px #555;		
+	width : 628px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background:#DEDEDE;
+}
+
+#modifier form
+{
+	padding:20px;
+}
+
+/* Bouton retour pour le formulaire :
+	- mdp oublié
+	- nous contacter
+	- inscription */
+#btnRetour{
+	float : right;
+	margin-right : 55px;
+	margin-top: 10px;	
+}
+#btnRetour a{
+	text-decoration:none;
+	color:black;
+}
+
+
+/* affichage d'un message pour l'utilisateur  */
+ .msg p{
+	color:red;
+ }
+
+#buttonsubmit{
+	width:70px;
+	height:70px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+}
+#buttondeco{
+	color:red;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #A4EE7B;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.buttonoui{
+background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  font-size:100%;
+}
+
+.buttonoui:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.buttonnon{
+	background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;	
+   font-size:100%;
+}
+
+.buttonnon:hover {
+  background-color: #4CAF50;
+  color: white;
+}
